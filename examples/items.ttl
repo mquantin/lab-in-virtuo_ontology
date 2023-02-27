@@ -1,0 +1,970 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/> .
+@prefix rdac: <http://rdaregistry.info/Elements/c/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://serv-gi-34.utbm.fr/api/items/127> a crm:E22_Human-Made_Object ;
+    rdfs:label "Bâtiment 1 de DMC" ;
+    dcterms:alternative "Magasin de coton de DMC" ;
+    dcterms:description "Le bâtiment sert de magasin de coton" ;
+    crm:P196_defines <http://serv-gi-34.utbm.fr/api/items/129> ;
+    crm:P46_is_composed_of <http://serv-gi-34.utbm.fr/api/items/130>,
+        <http://serv-gi-34.utbm.fr/api/items/131> ;
+    crm:P51_has_former_or_current_owner <http://serv-gi-34.utbm.fr/api/items/128> ;
+    crm:P54_has_current_permanent_location <http://serv-gi-34.utbm.fr/api/items/126> ;
+    skos:prefLabel "Bâtiment 1 de DMC" .
+
+<http://serv-gi-34.utbm.fr/api/items/132> a crm:E9_Move ;
+    rdfs:label "Flux test (modification compte de test éditeur 26/01/2023)" ;
+    dcterms:description "Ceci est un flux test, il est voué à être supprimé (modification compte de test éditeur 26/01/2023)" ;
+    skos:prefLabel "Flux test (modification compte de test éditeur 26/01/2023)" .
+
+<http://serv-gi-34.utbm.fr/api/items/15> a bibo:Manual ;
+    rdfs:label "Nouveau manuel complet du filateur, ou description des méthodes pour convertir en fils le coton, le lin, le chanvre, la laine et la soie" ;
+    dcterms:creator <http://serv-gi-34.utbm.fr/api/items/12> ;
+    dcterms:issued "1843" ;
+    dcterms:title "Nouveau manuel complet du filateur ou Description des méthodes anciennes et nouvelles employées pour la conversion en fils des cinq matières organiques, filamenteuses et textiles: savoir : le coton, le lin, le chanvre, la laine et la soie" ;
+    bibo:numPages "341" ;
+    crm:P70_documents <http://serv-gi-34.utbm.fr/api/items/100>,
+        <http://serv-gi-34.utbm.fr/api/items/101>,
+        <http://serv-gi-34.utbm.fr/api/items/102>,
+        <http://serv-gi-34.utbm.fr/api/items/105>,
+        <http://serv-gi-34.utbm.fr/api/items/106>,
+        <http://serv-gi-34.utbm.fr/api/items/109>,
+        <http://serv-gi-34.utbm.fr/api/items/110>,
+        <http://serv-gi-34.utbm.fr/api/items/111>,
+        <http://serv-gi-34.utbm.fr/api/items/112>,
+        <http://serv-gi-34.utbm.fr/api/items/113>,
+        <http://serv-gi-34.utbm.fr/api/items/114>,
+        <http://serv-gi-34.utbm.fr/api/items/115>,
+        <http://serv-gi-34.utbm.fr/api/items/116>,
+        <http://serv-gi-34.utbm.fr/api/items/117>,
+        <http://serv-gi-34.utbm.fr/api/items/120>,
+        <http://serv-gi-34.utbm.fr/api/items/121>,
+        <http://serv-gi-34.utbm.fr/api/items/122>,
+        <http://serv-gi-34.utbm.fr/api/items/123>,
+        <http://serv-gi-34.utbm.fr/api/items/21>,
+        <http://serv-gi-34.utbm.fr/api/items/24>,
+        <http://serv-gi-34.utbm.fr/api/items/26>,
+        <http://serv-gi-34.utbm.fr/api/items/27>,
+        <http://serv-gi-34.utbm.fr/api/items/28>,
+        <http://serv-gi-34.utbm.fr/api/items/29>,
+        <http://serv-gi-34.utbm.fr/api/items/30>,
+        <http://serv-gi-34.utbm.fr/api/items/31>,
+        <http://serv-gi-34.utbm.fr/api/items/32>,
+        <http://serv-gi-34.utbm.fr/api/items/33>,
+        <http://serv-gi-34.utbm.fr/api/items/34>,
+        <http://serv-gi-34.utbm.fr/api/items/35>,
+        <http://serv-gi-34.utbm.fr/api/items/36>,
+        <http://serv-gi-34.utbm.fr/api/items/37>,
+        <http://serv-gi-34.utbm.fr/api/items/38>,
+        <http://serv-gi-34.utbm.fr/api/items/39>,
+        <http://serv-gi-34.utbm.fr/api/items/40>,
+        <http://serv-gi-34.utbm.fr/api/items/41>,
+        <http://serv-gi-34.utbm.fr/api/items/42>,
+        <http://serv-gi-34.utbm.fr/api/items/43>,
+        <http://serv-gi-34.utbm.fr/api/items/44>,
+        <http://serv-gi-34.utbm.fr/api/items/45>,
+        <http://serv-gi-34.utbm.fr/api/items/46>,
+        <http://serv-gi-34.utbm.fr/api/items/47>,
+        <http://serv-gi-34.utbm.fr/api/items/48>,
+        <http://serv-gi-34.utbm.fr/api/items/49>,
+        <http://serv-gi-34.utbm.fr/api/items/50>,
+        <http://serv-gi-34.utbm.fr/api/items/51>,
+        <http://serv-gi-34.utbm.fr/api/items/52>,
+        <http://serv-gi-34.utbm.fr/api/items/54>,
+        <http://serv-gi-34.utbm.fr/api/items/55>,
+        <http://serv-gi-34.utbm.fr/api/items/58>,
+        <http://serv-gi-34.utbm.fr/api/items/59>,
+        <http://serv-gi-34.utbm.fr/api/items/60>,
+        <http://serv-gi-34.utbm.fr/api/items/61>,
+        <http://serv-gi-34.utbm.fr/api/items/62>,
+        <http://serv-gi-34.utbm.fr/api/items/63>,
+        <http://serv-gi-34.utbm.fr/api/items/64>,
+        <http://serv-gi-34.utbm.fr/api/items/65>,
+        <http://serv-gi-34.utbm.fr/api/items/66>,
+        <http://serv-gi-34.utbm.fr/api/items/67>,
+        <http://serv-gi-34.utbm.fr/api/items/68>,
+        <http://serv-gi-34.utbm.fr/api/items/69>,
+        <http://serv-gi-34.utbm.fr/api/items/70>,
+        <http://serv-gi-34.utbm.fr/api/items/71>,
+        <http://serv-gi-34.utbm.fr/api/items/72>,
+        <http://serv-gi-34.utbm.fr/api/items/73>,
+        <http://serv-gi-34.utbm.fr/api/items/74>,
+        <http://serv-gi-34.utbm.fr/api/items/75>,
+        <http://serv-gi-34.utbm.fr/api/items/76>,
+        <http://serv-gi-34.utbm.fr/api/items/78>,
+        <http://serv-gi-34.utbm.fr/api/items/79>,
+        <http://serv-gi-34.utbm.fr/api/items/80>,
+        <http://serv-gi-34.utbm.fr/api/items/87>,
+        <http://serv-gi-34.utbm.fr/api/items/88>,
+        <http://serv-gi-34.utbm.fr/api/items/91>,
+        <http://serv-gi-34.utbm.fr/api/items/92>,
+        <http://serv-gi-34.utbm.fr/api/items/93>,
+        <http://serv-gi-34.utbm.fr/api/items/94>,
+        <http://serv-gi-34.utbm.fr/api/items/96>,
+        <http://serv-gi-34.utbm.fr/api/items/97>,
+        <http://serv-gi-34.utbm.fr/api/items/98>,
+        <http://serv-gi-34.utbm.fr/api/items/99> ;
+    skos:prefLabel "Nouveau manuel complet du filateur, ou description des méthodes pour convertir en fils le coton, le lin, le chanvre, la laine et la soie" .
+
+<http://serv-gi-34.utbm.fr/api/items/12> a rdac:C10004 ;
+    rdfs:label "Charles-Edouard Jullien" ;
+    rdaa:P50104 <http://serv-gi-34.utbm.fr/api/items/14> ;
+    rdaa:P50120 "1860" ;
+    rdaa:P50121 "1813" ;
+    schema:legalName "Charles-Edouard Jullien" ;
+    owl:sameAs <http://viaf.org/viaf/77738221> ;
+    skos:prefLabel "Charles-Edouard Jullien" .
+
+<http://serv-gi-34.utbm.fr/api/items/123> a crm:E9_Move ;
+    rdfs:label "Fabrication du fil de coton" ;
+    crm:P9_consists_of <http://serv-gi-34.utbm.fr/api/items/102>,
+        <http://serv-gi-34.utbm.fr/api/items/109>,
+        <http://serv-gi-34.utbm.fr/api/items/111>,
+        <http://serv-gi-34.utbm.fr/api/items/116>,
+        <http://serv-gi-34.utbm.fr/api/items/117>,
+        <http://serv-gi-34.utbm.fr/api/items/122>,
+        <http://serv-gi-34.utbm.fr/api/items/70>,
+        <http://serv-gi-34.utbm.fr/api/items/72>,
+        <http://serv-gi-34.utbm.fr/api/items/75>,
+        <http://serv-gi-34.utbm.fr/api/items/76>,
+        <http://serv-gi-34.utbm.fr/api/items/78>,
+        <http://serv-gi-34.utbm.fr/api/items/92>,
+        <http://serv-gi-34.utbm.fr/api/items/96> ;
+    rdfs:comment "Cet item représente le flux de production du fil de coton" ;
+    skos:prefLabel "Fabrication du fil de coton" .
+
+<http://serv-gi-34.utbm.fr/api/items/124> a crm:E53_Place ;
+    rdfs:label "Techn'hom" ;
+    dcterms:description "Zone géographique du Techn'hom" ;
+    crm:P89_falls_within <http://serv-gi-34.utbm.fr/api/items/77> ;
+    skos:prefLabel "Techn'hom" .
+
+<http://serv-gi-34.utbm.fr/api/items/126> a crm:E53_Place ;
+    rdfs:label "Zone géographique du bâtiment 1" ;
+    crm:P89_falls_within <http://serv-gi-34.utbm.fr/api/items/125> ;
+    skos:prefLabel "Zone géographique du bâtiment 1" .
+
+<http://serv-gi-34.utbm.fr/api/items/128> a rdac:C10011 ;
+    rdfs:label "Entreprise DMC" ;
+    rdaa:P50342 <http://serv-gi-34.utbm.fr/api/items/125> ;
+    skos:prefLabel "Entreprise DMC" .
+
+<http://serv-gi-34.utbm.fr/api/items/130> a crm:E22_Human-Made_Object ;
+    rdfs:label "Mur 1(0)A1" ;
+    dcterms:description "Mur 1 de la salle A du rez-de-chaussée du bâtiment 1" ;
+    crm:P196_defines <http://serv-gi-34.utbm.fr/api/items/129> ;
+    skos:prefLabel "Mur 1(0)A1" .
+
+<http://serv-gi-34.utbm.fr/api/items/131> a crm:E22_Human-Made_Object ;
+    rdfs:label "Façade 1" ;
+    dcterms:description "Façade des bâtiments 1,2 et 3" ;
+    skos:prefLabel "Façade 1" .
+
+<http://serv-gi-34.utbm.fr/api/items/14> a crm:E4_Period ;
+    rdfs:label "Ingénieur ",
+        "Ingénieur (Charles-Edouard Jullien)" ;
+    crm:P2_has_type <http://vocab.getty.edu/page/aat/300025063> ;
+    rdfs:comment """Periode de travail en tant qu'ingénieur de Charles-Edouard Jullien
+Date de début inconnue
+Date probable de fin : 1860""" ;
+    skos:prefLabel "Ingénieur (Charles-Edouard Jullien) " .
+
+<http://serv-gi-34.utbm.fr/api/items/58> a crm:E12_Production ;
+    rdfs:label "Empaquetage en balles rondes ou carrées dans des toiles de chanvre" ;
+    dcterms:description "Production des balles de cotons empaquetées pour pouvoir être expédiée." ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/21>,
+        <http://serv-gi-34.utbm.fr/api/items/33>,
+        <http://serv-gi-34.utbm.fr/api/items/34>,
+        <http://serv-gi-34.utbm.fr/api/items/38>,
+        <http://serv-gi-34.utbm.fr/api/items/39>,
+        <http://serv-gi-34.utbm.fr/api/items/41> .
+
+<http://serv-gi-34.utbm.fr/api/items/59> a crm:E12_Production ;
+    rdfs:label "Empaquetage en balles ronds ou carrées, avec cordes, dans des toiles en chanvre" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/24>,
+        <http://serv-gi-34.utbm.fr/api/items/26>,
+        <http://serv-gi-34.utbm.fr/api/items/27>,
+        <http://serv-gi-34.utbm.fr/api/items/28>,
+        <http://serv-gi-34.utbm.fr/api/items/29> .
+
+<http://serv-gi-34.utbm.fr/api/items/60> a crm:E12_Production ;
+    rdfs:label "Empaquetage en balles rondes ou carrées dans des toiles de coton" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/30>,
+        <http://serv-gi-34.utbm.fr/api/items/31>,
+        <http://serv-gi-34.utbm.fr/api/items/32>,
+        <http://serv-gi-34.utbm.fr/api/items/35> .
+
+<http://serv-gi-34.utbm.fr/api/items/61> a crm:E12_Production ;
+    rdfs:label "Empaquetage en surrons en cuirs ou ballots carrés en toile avec liens en cuir" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P33_used_specific_technique <http://serv-gi-34.utbm.fr/api/items/36> .
+
+<http://serv-gi-34.utbm.fr/api/items/62> a crm:E12_Production ;
+    rdfs:label "Empaquetage en balles et ballots de forme ronde" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/37> .
+
+<http://serv-gi-34.utbm.fr/api/items/63> a crm:E12_Production ;
+    rdfs:label "Empaquetage en ballots carrés avec liens de cuir, dans des toiles de chanvre" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/40> .
+
+<http://serv-gi-34.utbm.fr/api/items/64> a crm:E12_Production ;
+    rdfs:label "Empaquetage en balles ou ballots carrés avec des liens en jonc" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/42>,
+        <http://serv-gi-34.utbm.fr/api/items/43> .
+
+<http://serv-gi-34.utbm.fr/api/items/65> a crm:E12_Production ;
+    rdfs:label "Empaquetage en balles carrées longues, très fortement serrées avec une corde en écorce d’arbre, dans des toiles aussi en écorce" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/44>,
+        <http://serv-gi-34.utbm.fr/api/items/45>,
+        <http://serv-gi-34.utbm.fr/api/items/46>,
+        <http://serv-gi-34.utbm.fr/api/items/47> .
+
+<http://serv-gi-34.utbm.fr/api/items/66> a crm:E12_Production ;
+    rdfs:label "Empaquetage en balles rondes dans un léger tissu de jarre de chèvres ou de chameau" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/48>,
+        <http://serv-gi-34.utbm.fr/api/items/49> .
+
+<http://serv-gi-34.utbm.fr/api/items/67> a crm:E12_Production ;
+    rdfs:label "Empaquetage en balles rondes dans un tissu de crin" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/52> .
+
+<http://serv-gi-34.utbm.fr/api/items/68> a crm:E12_Production ;
+    rdfs:label "Empaquetage en balles rondes ou carrées avec de petites cordes, dans des toiles blanches de lin" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/50> .
+
+<http://serv-gi-34.utbm.fr/api/items/69> a crm:E12_Production ;
+    rdfs:label "Empaquetage en balles rondes, avec petites cordes, dans des toiles grosses et claires" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/51> .
+
+<http://serv-gi-34.utbm.fr/api/items/77> a crm:E53_Place ;
+    rdfs:label "Belfort" ;
+    dcterms:description "Ville de Belfort" ;
+    crm:P89_falls_within <https://www.geonames.org/3017382> ;
+    owl:sameAs <https://www.geonames.org/3033791> ;
+    skos:prefLabel "Belfort" .
+
+<http://serv-gi-34.utbm.fr/api/items/80> a crm:E22_Human-Made_Object ;
+    rdfs:label "Batteur-étaleur" ;
+    dcterms:description "L’ouvrière dite peseuse place du coton en quantité égale par fraction du tapis roulant d’entrée, trois autres l’étalent régulièrement, puis passent sous les cylindres. Ensuite un frappeur à trois marteaux vient le battre pour l’ouvrir et aérer, et de nouveau stabilisé entre deux nouveaux cylindres, avant enroulement sur un rouleau final. Léger étirage avec les vitesses des rouleaux, de l’ordre de 33cm/m. Il est enroulé sur des rouleaux en bois en fin de processus, pour l’emmener aux cardes." ;
+    crm:P2_has_type <http://data.culture.fr/thesaurus/page/ark:/67717/T69-5895> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/56> ;
+    crm:P43_has_dimension "150 kg/jour de coton traité" ;
+    skos:prefLabel "Batteur-étaleur" .
+
+<http://serv-gi-34.utbm.fr/api/items/100> a crm:E12_Production ;
+    rdfs:label "Etirage en fils (broche en gros)" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/98> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/97> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/94> .
+
+<http://serv-gi-34.utbm.fr/api/items/101> a crm:E12_Production ;
+    rdfs:label "Etirage en fils (broche en fin)" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/99> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/97> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/98> .
+
+<http://serv-gi-34.utbm.fr/api/items/102> a crm:E12_Production ;
+    rdfs:label "Etirage en fils (procédé général)" ;
+    dcterms:description "On continue à étirer les rubans, en utilisant la propriété de la matière d’acquérir de la résistance par la torsion pour dépasser le point de rupture du coton brut. On étire et on tord en même temps. Le ruban passe d’abord dans deux ou trois couples de cylindres étireurs, puis arrive sur la bobine en passant dans l’ailette (qui entoure la bobine), laquelle permet de lui donner la torsion en même temps qu’il s’enroule. La bobine ET l’ailette tournent, dans le même sens, mais l’ailette tourne plus vite que la bobine. Par ailleurs, la bobine, en plus de tourner, a également un mouvement de va-et-vient vertical (pour répartir le fil sur toute sa hauteur)." ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/99> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/97> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/94> ;
+    crm:P9_consists_of <http://serv-gi-34.utbm.fr/api/items/100>,
+        <http://serv-gi-34.utbm.fr/api/items/101> .
+
+<http://serv-gi-34.utbm.fr/api/items/106> a crm:E22_Human-Made_Object ;
+    rdfs:label "Métier en fin" ;
+    dcterms:alternative "Mule-Jenny",
+        "Métier renvideur" ;
+    dcterms:description "Le fil passe entre deux cylindres pour l’étirer et le placer au bon endroit, puis est relié à des broches qui vont servir de bobines, elles-mêmes fixées sur un chariot. Le chariot est éloigné, puis les broches se mettent à tourner en tordant le fil (on leur donne une inclinaison qui permet de faire en sorte que le fil ne s’enroule pas). Lorsque c’est fait, un mécanisme change la position d’arrivée des fils sur les broches (plus bas) et redresse ces dernières ; le chariot est ramené à sa position initiale, pendant ce temps les broches tournent à nouveau et cette fois enroulent le coton autour d’elles." ;
+    crm:P2_has_type <http://data.culture.fr/thesaurus/page/ark:/67717/T69-5431> ;
+    crm:P43_has_dimension "4,75 kg/jour de fil" ;
+    skos:prefLabel "Métier en fin" .
+
+<http://serv-gi-34.utbm.fr/api/items/109> a crm:E12_Production ;
+    rdfs:label "Tordage" ;
+    dcterms:description "Le tordage consiste à tordre le fil étiré pour l’amener au diamètre/torsion désiré, puis à l’enrouler sur des fusées, sur un « métier en fin », dont il existe plusieurs variantes. La machine la plus courante est la Mule-Jenny, qui effectue un travail intermitent (un ouvrier doit manuellement manipuler un chariot toutes les quelques secondes). Une variante où tout se fait automatiquement (« métier renvideur » ou « self-acting ») existe également." ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/105> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/106> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/99> .
+
+<http://serv-gi-34.utbm.fr/api/items/110> a crm:E22_Human-Made_Object ;
+    rdfs:label "Peson à bascule" ;
+    dcterms:alternative "Dynamomètre" ;
+    dcterms:description "Balance directement graduée pour indiquer le numéro du fil" ;
+    crm:P2_has_type <http://data.culture.fr/thesaurus/page/ark:/67717/T69-5301> ;
+    skos:prefLabel "Peson à bascule" .
+
+<http://serv-gi-34.utbm.fr/api/items/111> a crm:E12_Production ;
+    rdfs:label "Tarifage" ;
+    dcterms:description """C'est une opération de mesure et de contrôle : détermination du numéro moyen de chaque levée effectuée sur le métier en fin. On prend 4 ou 5 fusées au hasard dans chaque levée du métier en fin, on en dévide une longueur fixe, et on pèse celle-ci. Par ailleurs on vérifie la qualité, en particulier si l’épaisseur est égale partout, et si le fil est assez solide. Si jamais il devait s’agir d’un fil de chaîne (particulièrement solide) et qu’il est trop peu solide, on l’envoie au dévidage comme fil de trame.
+Permet de connaître ce qu’on a produit, en déduit la paie des ouvriers, et permet aussi de contrôle si les machines produisent bien ce qu’on attend d’elle""" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/105> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/110> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/105> .
+
+<http://serv-gi-34.utbm.fr/api/items/112> a crm:E22_Human-Made_Object ;
+    rdfs:label "Dévidoir" ;
+    dcterms:description "Les dévidoirs permettent de transférer le fil des grandes fusées sur des écheveaux commercialisables." ;
+    crm:P2_has_type <http://data.culture.fr/thesaurus/page/ark:/67717/T69-5877> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/56> ;
+    crm:P43_has_dimension "5 kg par jour et par ouvrière" ;
+    skos:prefLabel "Dévidoir" .
+
+<http://serv-gi-34.utbm.fr/api/items/115> a crm:E22_Human-Made_Object ;
+    rdfs:label "Etuve à vapeur" ;
+    dcterms:description "Les fusées sont passés dans une étuve à vapeur pour leur donner de la souplesse et conserver le tors." ;
+    crm:P2_has_type <http://data.culture.fr/thesaurus/page/ark:/67717/T69-5971> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Etuve à vapeur" .
+
+<http://serv-gi-34.utbm.fr/api/items/116> a crm:E12_Production ;
+    rdfs:label "Etuvage" ;
+    dcterms:description "Passage des fusées de fil à l'étuve" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/113> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/115> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/105> .
+
+<http://serv-gi-34.utbm.fr/api/items/117> a crm:E12_Production ;
+    rdfs:label "Dévidage" ;
+    dcterms:description "Passage des fusées de fils étuvées dans le dévidoir" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/114> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/112> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/113> .
+
+<http://serv-gi-34.utbm.fr/api/items/120> a crm:E18_Physical_Thing ;
+    rdfs:label "Echeveau emballé" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Echeveau emballé" .
+
+<http://serv-gi-34.utbm.fr/api/items/121> a crm:E22_Human-Made_Object ;
+    rdfs:label "Presse à manivelle" ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/56> ;
+    crm:P43_has_dimension "5 kg par jour et par ouvrière " ;
+    skos:prefLabel "Presse à manivelle" .
+
+<http://serv-gi-34.utbm.fr/api/items/122> a crm:E12_Production ;
+    rdfs:label "Empaquetage" ;
+    dcterms:description "Les écheveaux de fil sont emballés pour expédition." ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/120> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/121> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/114> .
+
+<http://serv-gi-34.utbm.fr/api/items/125> a crm:E53_Place ;
+    rdfs:label "Site DMC de Belfort" ;
+    dcterms:description "Emplacement géographique du site de Belfort de DMC" ;
+    crm:P89_falls_within <http://serv-gi-34.utbm.fr/api/items/124> ;
+    skos:prefLabel "Site DMC de Belfort" .
+
+<http://serv-gi-34.utbm.fr/api/items/129> a crm:E92_Spacetime_Volume ;
+    rdfs:label "Salle 1(0)A" ;
+    dcterms:description "Salle A du rez-de-chaussée du bâtiment 1 (" ;
+    skos:prefLabel "Salle 1(0)A" .
+
+<http://serv-gi-34.utbm.fr/api/items/70> a crm:E12_Production ;
+    rdfs:label "Ouvrage du coton" ;
+    dcterms:description "Après l’ouverture de l’emballage, il faut supprimer un maximum de matières étrangères (déchets durs, poussières...), et redonner de la souplesse aux fibres de coton qui étaient tassées dedans." ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/74> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/54>,
+        <http://serv-gi-34.utbm.fr/api/items/55> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/57> ;
+    crm:P9_consists_of <http://serv-gi-34.utbm.fr/api/items/72>,
+        <http://serv-gi-34.utbm.fr/api/items/75>,
+        <http://serv-gi-34.utbm.fr/api/items/76> .
+
+<http://serv-gi-34.utbm.fr/api/items/78> a crm:E12_Production ;
+    rdfs:label "Etalage du coton" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/79> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/74> .
+
+<http://serv-gi-34.utbm.fr/api/items/88> a crm:E22_Human-Made_Object ;
+    rdfs:label "Cardeuse" ;
+    dcterms:description "Il s’agit de récupérer le ruban issu de l’étalage et de le rendre régulier et homogène avant d’entrer dans la filature, en rendant les fibres droits et parallèles. Essentiellement deux peignes à dents frottant le coton jusqu’à ce que les fibres soient toutes parallèles, et peignes montés sur des rouleaux pour mécanisation : un tambour en bois central au milieu, et des « chapeaux » autour et/ou de plus petits tambours dentés." ;
+    crm:P2_has_type <http://data.culture.fr/thesaurus/page/ark:/67717/T69-5881> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/56> ;
+    crm:P43_has_dimension "15 kg/jour de coton traité" ;
+    skos:prefLabel "Cardeuse" .
+
+<http://serv-gi-34.utbm.fr/api/items/91> a crm:E22_Human-Made_Object ;
+    rdfs:label "Machine à réunir" ;
+    dcterms:description "Entre chaque cardage , on réunit les rubans des différentes cardes de même type pour reconstituer un ruban de taille initiale convenable grâce à une machine à réunir" ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/56> ;
+    crm:P43_has_dimension "15 kg/jour de coton traité" ;
+    skos:prefLabel "Machine à réunir" .
+
+<http://serv-gi-34.utbm.fr/api/items/92> a crm:E12_Production ;
+    rdfs:label "Cardage" ;
+    dcterms:description """Il s’agit de récupérer le ruban issu de l’étalage et de le rendre régulier et homogène avant d’entrer dans la filature, en rendant les fibres droits et parallèles. Essentiellement deux peignes à dents frottant le coton jusqu’à ce que les fibres soient toutes parallèles, et peignes montés sur des rouleaux pour mécanisation : un tambour en bois central au milieu, et des « chapeaux » autour et/ou de plus petits tambours dentés.
+Il y a beaucoup de déchets sur une carde, donc le ruban qui sort est beaucoup plus fin que celui qui entre. Entre chaque cardage , on réunit les rubans des différentes cardes de même type pour reconstituer un ruban de taille initiale convenable, et parfois réunit encore ceux-ci avec une « machine à doubler »,""" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/87> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/88>,
+        <http://serv-gi-34.utbm.fr/api/items/91> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/79> .
+
+<http://serv-gi-34.utbm.fr/api/items/93> a crm:E22_Human-Made_Object ;
+    rdfs:label "Banc d'étirage" ;
+    dcterms:alternative "Banc à étirer" ;
+    dcterms:description "Il s’agit d’étirer les fibres du ruban de coton cardé tout en conservant la cohésion globale. On développe donc les filaments dans leur longueur en les faisant passer sous des cylindres, ce qui aumente leur longueur et diminue leur épaisseur ; pour assurer qu’il y ait assez de matière, on recombine ensuite plusieurs de ces rubans éturés en un gros ruban, qui peut repasser sous les cylindres pour continuer l’opération. Une légère torsion est donnée tout à la fin pour assurer la cohésion." ;
+    crm:P2_has_type <http://data.culture.fr/thesaurus/page/ark:/67717/T69-5631> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/56> ;
+    crm:P43_has_dimension """1800 kg/jour de coton traité (360 kg/j avec 5 passages successifs)
+""" ;
+    skos:prefLabel "Banc d'étirage" .
+
+<http://serv-gi-34.utbm.fr/api/items/96> a crm:E12_Production ;
+    rdfs:label "Etirage du coton" ;
+    dcterms:description "Il s’agit d’étirer les fibres du ruban de coton cardé tout en conservant la cohésion globale. On développe donc les filaments dans leur longueur en les faisant passer sous des cylindres, ce qui aumente leur longueur et diminue leur épaisseur ; pour assurer qu’il y ait assez de matière, on recombine ensuite plusieurs de ces rubans éturés en un gros ruban, qui peut repasser sous les cylindres pour continuer l’opération. Une légère torsion est donnée tout à la fin pour assurer la cohésion." ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/94> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/93> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/87> .
+
+<http://serv-gi-34.utbm.fr/api/items/113> a crm:E18_Physical_Thing ;
+    rdfs:label "Fusées de fil étuvés" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Fusées de fil étuvés" .
+
+<http://serv-gi-34.utbm.fr/api/items/114> a crm:E20_Biological_Object ;
+    rdfs:label "Echeveaux de fil" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Echeveaux de fil" .
+
+<http://serv-gi-34.utbm.fr/api/items/21> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton \"Sea Island\"" ;
+    dcterms:alternative "Coton de Géorgie long" ;
+    schema:color "Argentée",
+        "Blancheur brillante" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Classe de finesse : 1 (de 1 à 3, 1 étant la meilleure)",
+        "Grande longueur, finesse et force (coton le plus réputé)",
+        "Très propre" ;
+    crm:P43_has_dimension "20-30 mm de long",
+        "71 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/4197000> ;
+    skos:prefLabel "Coton \"Sea Island\"" .
+
+<http://serv-gi-34.utbm.fr/api/items/24> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Géorgie court" ;
+    schema:color "Blanc beurré" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Classe de finesse : 3 (de 1 à 3, 1 étant la meilleure)",
+        "Généralement propre",
+        "Nerveux, assez fin, régulier" ;
+    crm:P43_has_dimension "18-25 mm de long",
+        "53 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/4197000> ;
+    skos:prefLabel "Coton de Géorgie court" .
+
+<http://serv-gi-34.utbm.fr/api/items/26> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Caroline" ;
+    dcterms:alternative "Coton de Caroline du Sud" ;
+    schema:color "Blanc" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        """Classe de finesse : 3 (de 1 à 3, 1 étant la meilleure)
+""",
+        "Fin, un peu léger, régulier en qualité",
+        "Généralement propre" ;
+    crm:P43_has_dimension """18-25 mm de long
+""",
+        "60 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/4597040> ;
+    skos:prefLabel "Coton de Caroline" .
+
+<http://serv-gi-34.utbm.fr/api/items/27> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Mobile" ;
+    dcterms:alternative "Coton du comté de Mobile" ;
+    schema:color "Blanc légèrement beurré" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Classe de finesse : 1 (de 1 à 3, 1 étant la meilleure)",
+        "Propre",
+        "Soie égale mais un peu grosse" ;
+    crm:P43_has_dimension "25-31 mm de long",
+        "50 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/4076607> ;
+    skos:prefLabel "Coton de Mobile" .
+
+<http://serv-gi-34.utbm.fr/api/items/28> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton d'Alabama" ;
+    dcterms:alternative "Coton de l'Alabama" ;
+    schema:color "Beau blanc" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Classe de finesse : inconnue",
+        "Propreté non précisée",
+        "Soie moins fine et moins unie que celle de Louisiane" ;
+    crm:P43_has_dimension "18-25 mm de long",
+        "60 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/4829764> ;
+    skos:prefLabel "Coton d'Alabama" .
+
+<http://serv-gi-34.utbm.fr/api/items/29> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Louisiane" ;
+    schema:color "Beau blanc",
+        "Légèrement beurré" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Classe de finesse : 3 (de 1 à 3, 1 étant la meilleure)",
+        "Propre",
+        "Soie fine et douce" ;
+    crm:P43_has_dimension "18-25 mm de long",
+        "60 brins pour couvrir 1 mm de diamètre " ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/4331987> ;
+    skos:prefLabel "Coton de Louisiane" .
+
+<http://serv-gi-34.utbm.fr/api/items/30> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Fernambouc" ;
+    dcterms:alternative "Coton de Pernambouc" ;
+    schema:color "Blanc beurré" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Classe de finesse : 2 (de 1 à 3, 1 étant la meilleure)",
+        "Régulier, nerveux",
+        "Très propre" ;
+    crm:P43_has_dimension "31-36 mm de long",
+        "53 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/3392268> ;
+    skos:prefLabel "Coton de Fernambouc" .
+
+<http://serv-gi-34.utbm.fr/api/items/31> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Maragnan" ;
+    dcterms:alternative "Coton de Maranhão" ;
+    schema:color "Blanc beurré un peu terne" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Classe de finesse : 2 (de 1 à 3, 1 étant la meilleure)",
+        "Quelquefois assez sale",
+        "Soie dure et forte" ;
+    crm:P43_has_dimension "22-30 mm de long",
+        "36 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/3395443> ;
+    skos:prefLabel "Coton de Maragnan" .
+
+<http://serv-gi-34.utbm.fr/api/items/32> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Bahia" ;
+    dcterms:alternative "Coton du comté de Bahia" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Assez fin, moins ouvert et moins régulier que celui de Fernambouc",
+        "Classe de finesse : 1 (de 1 à 3, 1 étant la meilleure)",
+        "Généralement chargé de feuillage, de graines et mélangé de coton mort" ;
+    crm:P43_has_dimension "27-34 mm de long",
+        "51 brins pour couvrir 1 mm de diamètre " ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/3471168> ;
+    skos:prefLabel "Coton de Bahia" .
+
+<http://serv-gi-34.utbm.fr/api/items/33> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Cayenne long" ;
+    dcterms:alternative "Cayenne long" ;
+    schema:color "Blanc beurré",
+        "Brillant" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Classe de finesse : 2 (de 1 à 3, 1 étant la meilleure)",
+        "Généralement propre, petits points blanc inhérents à la fibre",
+        "Soie fine, forte et résistante " ;
+    crm:P43_has_dimension "27-34 mm de long ",
+        "60 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <http://www.geonames.org/3381670> ;
+    skos:prefLabel "Coton de Cayenne long" .
+
+<http://serv-gi-34.utbm.fr/api/items/34> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Cayenne court" ;
+    dcterms:alternative "Cayenne court" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Classe de finesse : 2 (de 1 à 3, 1 tant la meilleure)",
+        "Généralement propre, petit poin t blanc inhérent à la fibre",
+        "Soie moins fine, plus dure et irrégulière que le Cayenne long" ;
+    crm:P43_has_dimension "27-34 mm de long",
+        "51 brins pour couvrir 1 mm de diamètre " ;
+    crm:P53_has_former_or_current_location <http://www.geonames.org/3381670> ;
+    skos:prefLabel "Coton de Cayenne court" .
+
+<http://serv-gi-34.utbm.fr/api/items/35> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Caraque" ;
+    dcterms:alternative "Coton de Carthagène" ;
+    schema:color "Blanc terne" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Chargé de graines brisées, ou pour certains très propres, ayant l’apparence du Fernambouc",
+        "Classe de finesse : 3 (de 1 à 3, 1 étant la meilleure)",
+        "Très cordé, en mèche très longues, lainage dur" ;
+    crm:P43_has_dimension "20-27 mm de long",
+        "53 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/12421431>,
+        <https://www.geonames.org/3644768>,
+        "Région côtière entre Carthagène (Colombie) et Cumana (Venezuela)" ;
+    skos:prefLabel "Coton de Caraque" .
+
+<http://serv-gi-34.utbm.fr/api/items/36> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Cumana" ;
+    dcterms:alternative "Coton de l'Orénoque" ;
+    schema:color "Variable" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Caractéristiques et propreté de la soie : Grande variabilité, très sale à très beau",
+        "Classe de finesse : inconnue" ;
+    crm:P43_has_dimension "22-27 mm de long",
+        "55 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/3631298>,
+        <https://www.geonames.org/3644768>,
+        "« Côte Sauvage », entre le détroit de l’Amazone et Cumana (Venezuela)" ;
+    skos:prefLabel "Coton de Cumana" .
+
+<http://serv-gi-34.utbm.fr/api/items/37> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Haiti" ;
+    schema:color "Jaune" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Assez propre",
+        "Classe de finesse : 2 (de 1 à 3, 1 étant la meilleure)",
+        "Qualité inégale, toujours des parties trop mûres. Coton jaune plus propre à teindre" ;
+    crm:P43_has_dimension "22-34 mm de long",
+        "67 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/3504558> ;
+    skos:prefLabel "Coton de Haiti " .
+
+<http://serv-gi-34.utbm.fr/api/items/38> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Guadeloupe" ;
+    schema:color "Blanc beurré, quelquefois mêlé de parties jaunes" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Classe de finesse : 3 (de 1 à 3, 1 étant la meilleure)",
+        "Propre",
+        "Soie assez forte" ;
+    crm:P43_has_dimension "27-34 mm de long",
+        "52 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/3579143> ;
+    skos:prefLabel "Coton de Guadeloupe" .
+
+<http://serv-gi-34.utbm.fr/api/items/39> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Martinique" ;
+    schema:color "Jaune" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Assez propre",
+        "Classe de finesse : indéterminée",
+        "Un peu dur" ;
+    crm:P43_has_dimension "27-34 mm de long",
+        "49 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/3570311> ;
+    skos:prefLabel "Coton de Martinique" .
+
+<http://serv-gi-34.utbm.fr/api/items/40> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Cuba" ;
+    schema:color "Blanc jaunâtre" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Classe de finesse : indéterminée",
+        "Nerveux, ouvert, un peu dur, souvent chargé",
+        "Se nettoyant facilement" ;
+    crm:P43_has_dimension "28-35 mm de long",
+        "52 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <http://www.geonames.org/3562993> ;
+    skos:prefLabel "Coton de Cuba" .
+
+<http://serv-gi-34.utbm.fr/api/items/41> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Trinité de Cuba" ;
+    dcterms:alternative "Coton de Trinidad",
+        "Coton de Trinidad de Cuba",
+        "Coton de Trinité" ;
+    schema:color "Blanc beurré" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Brillant, ouvert, soie irrégulière, nombreux points blancs adhérant à la fibre",
+        "Classe de finesse : indéterminée",
+        "Très propre" ;
+    crm:P43_has_dimension "24-36 mm de long",
+        "55 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/3540665> ;
+    skos:prefLabel "Coton de Trinité de Cuba" .
+
+<http://serv-gi-34.utbm.fr/api/items/42> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Porto Rico" ;
+    dcterms:alternative "Coton de Puerto Rico" ;
+    schema:color "Blanc argenté vif" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Chargé de noyaux",
+        "Classe de finesse : indéterminée",
+        "Fin, soie droite, douce et ferme" ;
+    crm:P43_has_dimension "20-25 mm de long",
+        "66 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/4566966> ;
+    skos:prefLabel "Coton de Porto Rico" .
+
+<http://serv-gi-34.utbm.fr/api/items/43> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Bourbon" ;
+    dcterms:alternative "Coton de La Réunion" ;
+    schema:color "Blanc beurré" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Classe de finesse : 1 (de 1 à 3, 1 étant la meilleure)",
+        "Propre",
+        "Très fin, brillant, parfois mécheux, très petit bouton blanc" ;
+    crm:P43_has_dimension "20-27 mm de long",
+        "67 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/935317> ;
+    skos:prefLabel "Coton de Bourbon" .
+
+<http://serv-gi-34.utbm.fr/api/items/44> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Surate" ;
+    schema:color "Blanc, quelquefois légèrement beurré" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Classe de finesse : indéterminée",
+        "Peu ouvert, fort, qualité très variable (chaque marque uniforme, la meilleure « Compagnie anglaise des Indes »)",
+        "Très variable, de sale à propre" ;
+    crm:P43_has_dimension "18-32 mm de long",
+        "53 brins pour couvrir 1 mm de diamètre (belle qualité), 36 pour la qualité inférieure" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/1255364> ;
+    skos:prefLabel "Coton de Surate" .
+
+<http://serv-gi-34.utbm.fr/api/items/45> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton du Bengale" ;
+    schema:color "Jaunâtre" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Classe de finesse indéterminée ",
+        "Propreté indéterminée",
+        "Soie très fine, régulière en qualité" ;
+    crm:P43_has_dimension "15-22 mm de long",
+        "53 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/1210997> ;
+    skos:prefLabel "Coton du Bengale" .
+
+<http://serv-gi-34.utbm.fr/api/items/46> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Madras" ;
+    schema:color "Jaune" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Classe de finesse : indéterminée",
+        "Ouvert, en toison",
+        "Propre" ;
+    crm:P43_has_dimension "18-25 mm de long",
+        "50 brins pour couvrir 1 mm de diamètre " ;
+    crm:P53_has_former_or_current_location <http://www.geonames.org/1264527> ;
+    skos:prefLabel "Coton de Madras" .
+
+<http://serv-gi-34.utbm.fr/api/items/47> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Toomel" ;
+    schema:color "Blanc jaunâtre" ;
+    crm:P2_has_type "Classe de finesse : indéterminée ",
+        "Généralement propre",
+        "Peu ouvert, soie frisée un peu grossière" ;
+    crm:P43_has_dimension "18-27 mm de long",
+        "46 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/1270770> ;
+    skos:prefLabel "Coton de Toomel" .
+
+<http://serv-gi-34.utbm.fr/api/items/48> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Kirkagach" ;
+    schema:color "Blanc" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Classe de finesse : 3 (de 1 à 3, 1 étant la meilleure)",
+        "Droit, ouvert, soie un peu grosse et dure",
+        "Généralement propre" ;
+    crm:P43_has_dimension "16-21 mm de long",
+        "38 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/307623> ;
+    skos:prefLabel "Coton de Kirkagach" .
+
+<http://serv-gi-34.utbm.fr/api/items/49> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Kinick" ;
+    schema:color "Blanc" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Assez propre",
+        "Classe de finesse : indéterminée",
+        "Frisé, un peu sec" ;
+    crm:P43_has_dimension "16-21 mm de long",
+        "40 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <http://www.geonames.org/307795> ;
+    skos:prefLabel "Coton de Kinick" .
+
+<http://serv-gi-34.utbm.fr/api/items/50> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Jumel" ;
+    schema:color "Jaune terne" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/22>,
+        "Classe de finesse : indéterminée",
+        "Fin et nerveux",
+        "propreté satisfaisante pour les meilleures qualités, sinon plus ou moins sale" ;
+    crm:P43_has_dimension "34-38 mm de long",
+        "67 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/351037> ;
+    skos:prefLabel "Coton de Jumel" .
+
+<http://serv-gi-34.utbm.fr/api/items/51> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton d'Alexandrie" ;
+    schema:color "Blanc" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Classe de finesse : indéterminée",
+        "Dur",
+        "Très sale" ;
+    crm:P43_has_dimension "15-22 mm de long",
+        "59 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/361058> ;
+    skos:prefLabel "Coton d'Alexandrie" .
+
+<http://serv-gi-34.utbm.fr/api/items/52> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton de Souboujac" ;
+    dcterms:alternative "Coton de Sobuca" ;
+    schema:color "Blanc brillant" ;
+    crm:P2_has_type <http://serv-gi-34.utbm.fr/api/items/23>,
+        "Classe de finesse : 3 (de 1 à 3, 1 étant la meilleure)",
+        "Le plus beau du Levant, soie fine, douce et un peu frisée",
+        "Propre" ;
+    crm:P43_has_dimension "18-23 mm de long",
+        "51 brins pour couvrir 1 mm de diamètre" ;
+    crm:P53_has_former_or_current_location <https://www.geonames.org/322830> ;
+    skos:prefLabel "Coton de Souboujac" .
+
+<http://serv-gi-34.utbm.fr/api/items/54> a crm:E22_Human-Made_Object ;
+    rdfs:label "Willow" ;
+    dcterms:alternative "Welow",
+        "Willowing machine" ;
+    dcterms:description "Ouvre le coton et répartit les étoupes, sert à redonner de la souplesse aux fibres de coton qui étaient tassées. Se compose d'une sorte de pannier conique avec un tambour muni de dents tournant au milieu ; un ventilateur aspire la poussière." ;
+    crm:P2_has_type <http://data.culture.fr/thesaurus/page/ark:/67717/T69-5765> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/56> ;
+    crm:P43_has_dimension "Volume de production : 300 kg/ jour" ;
+    skos:prefLabel "Willow" .
+
+<http://serv-gi-34.utbm.fr/api/items/55> a crm:E22_Human-Made_Object ;
+    rdfs:label "Batteur-éplucheur" ;
+    dcterms:alternative "Batteur éplucheur" ;
+    dcterms:description "Sert à enlever les morceaux de cosses, de graines et la poussière, il s’agit de battre le coton, les parties les plus denses se détachant : un système de batteurs (barres de fer frappant le coton), et de cylindres pour faire avancer le coton, et un grillage en fer pour récupérer les déchets en-dessous" ;
+    crm:P2_has_type <http://data.culture.fr/thesaurus/page/ark:/67717/T69-5861> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/56> ;
+    crm:P43_has_dimension "Volume de production : 300 kg/ jour" ;
+    skos:prefLabel "Batteur-éplucheur" .
+
+<http://serv-gi-34.utbm.fr/api/items/71> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton déballé" ;
+    dcterms:description "Coton déballé des balles de toiles qui ont servi au transport" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Coton déballé" .
+
+<http://serv-gi-34.utbm.fr/api/items/72> a crm:E12_Production ;
+    rdfs:label "Déballage du coton" ;
+    dcterms:description "Déballage d'une balle de coton par un ouvrier à la main" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/71> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/57> .
+
+<http://serv-gi-34.utbm.fr/api/items/73> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton ouvert" ;
+    dcterms:description "Coton ouvert par un willow" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Coton ouvert" .
+
+<http://serv-gi-34.utbm.fr/api/items/75> a crm:E12_Production ;
+    rdfs:label "Battage du coton" ;
+    dcterms:description "Nettoyage du coton par battage " ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/74> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/55> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/73> .
+
+<http://serv-gi-34.utbm.fr/api/items/76> a crm:E12_Production ;
+    rdfs:label "Aeration du coton" ;
+    dcterms:description "Aeration do coton par un willow" ;
+    crm:P108_has_produced <http://serv-gi-34.utbm.fr/api/items/73> ;
+    crm:P16_used_specific_object <http://serv-gi-34.utbm.fr/api/items/54> ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/71> .
+
+<http://serv-gi-34.utbm.fr/api/items/79> a crm:E18_Physical_Thing ;
+    rdfs:label "Rouleau chargé de coton" ;
+    dcterms:description "Coton pressé sous forme de ruban et enroulé autour d'un rouleau" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Rouleau chargé de coton" .
+
+<http://serv-gi-34.utbm.fr/api/items/87> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton cardé" ;
+    dcterms:alternative "Coton démêlé " ;
+    dcterms:description "Coton démêlé par une cardeuse" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Coton cardé" .
+
+<http://serv-gi-34.utbm.fr/api/items/98> a crm:E18_Physical_Thing ;
+    rdfs:label "Broches de coton étiré et tordu à 1 tour / cm" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Broches de coton étiré et tordu à 1 tour / cm" .
+
+<http://serv-gi-34.utbm.fr/api/items/74> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton nettoyé" ;
+    dcterms:description "Coton nettoyé par un batteur-éplucheur" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Coton nettoyé" .
+
+<http://serv-gi-34.utbm.fr/api/items/94> a crm:E18_Physical_Thing ;
+    rdfs:label "Rubans de coton étiré" ;
+    dcterms:description "Coton étiré par un banc puis enroulé autour d'un rouleau" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Rubans de coton étiré" .
+
+<http://serv-gi-34.utbm.fr/api/items/97> a crm:E22_Human-Made_Object ;
+    rdfs:label "Banc à broches" ;
+    dcterms:description "Il y a trois types de bancs à broches : en gros, intermédiaire et fin. Le coton venant de l’étape précédente passe d’abord dans le banc en gros. Ensuite le coton va dans le banc intermédiaire pour les numéros en-dessous de 50, et dans le fin à partir de 50. Plus le fil est gros, moins il y a de tord, du coup vitesse doit augmenter avec la finesse voulue." ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/56> ;
+    crm:P43_has_dimension "Banc en gros : 10 kg/jour",
+        "Fin : 1~2 kg/jour",
+        "Intermédiaire :  5~6 kg/jour " ;
+    skos:prefLabel "Banc à broches" .
+
+<http://serv-gi-34.utbm.fr/api/items/99> a crm:E18_Physical_Thing ;
+    rdfs:label """Broches de
+« fil » étiré et tordu à 2 tour / cm""" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel """Broches de
+« fil » étiré et tordu à 2 tour / cm""" .
+
+<http://serv-gi-34.utbm.fr/api/items/105> a crm:E18_Physical_Thing ;
+    rdfs:label "Fusée de fil" ;
+    owl:sameAs <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Fusée de fil" .
+
+<http://serv-gi-34.utbm.fr/api/items/23> a crm:E55_Type ;
+    rdfs:label "Soie courte" ;
+    dcterms:title "Soie courte" ;
+    schema:comment "Deux types de soies de cotons existent : courtes et longues" .
+
+<http://serv-gi-34.utbm.fr/api/items/57> a crm:E22_Human-Made_Object ;
+    rdfs:label "Balle de coton" ;
+    dcterms:description "Décrit le coton empaqueté et prêt pour l'expedition" ;
+    crm:P31_has_modified <http://serv-gi-34.utbm.fr/api/items/56> ;
+    skos:prefLabel "Balle de coton" .
+
+<http://serv-gi-34.utbm.fr/api/items/22> a crm:E55_Type ;
+    rdfs:label "Soie longue" ;
+    dcterms:title "Soie longue" ;
+    schema:comment "Deux types de soies de cotons existent : courtes et longues" .
+
+<http://serv-gi-34.utbm.fr/api/items/56> a crm:E18_Physical_Thing ;
+    rdfs:label "Coton (fibre d'ordre général)" ;
+    crm:P46_is_composed_of <http://serv-gi-34.utbm.fr/api/items/21>,
+        <http://serv-gi-34.utbm.fr/api/items/24>,
+        <http://serv-gi-34.utbm.fr/api/items/26>,
+        <http://serv-gi-34.utbm.fr/api/items/27>,
+        <http://serv-gi-34.utbm.fr/api/items/28>,
+        <http://serv-gi-34.utbm.fr/api/items/29>,
+        <http://serv-gi-34.utbm.fr/api/items/30>,
+        <http://serv-gi-34.utbm.fr/api/items/31>,
+        <http://serv-gi-34.utbm.fr/api/items/32>,
+        <http://serv-gi-34.utbm.fr/api/items/33>,
+        <http://serv-gi-34.utbm.fr/api/items/34>,
+        <http://serv-gi-34.utbm.fr/api/items/35>,
+        <http://serv-gi-34.utbm.fr/api/items/36>,
+        <http://serv-gi-34.utbm.fr/api/items/37>,
+        <http://serv-gi-34.utbm.fr/api/items/38>,
+        <http://serv-gi-34.utbm.fr/api/items/39>,
+        <http://serv-gi-34.utbm.fr/api/items/40>,
+        <http://serv-gi-34.utbm.fr/api/items/41>,
+        <http://serv-gi-34.utbm.fr/api/items/42>,
+        <http://serv-gi-34.utbm.fr/api/items/43>,
+        <http://serv-gi-34.utbm.fr/api/items/44>,
+        <http://serv-gi-34.utbm.fr/api/items/45>,
+        <http://serv-gi-34.utbm.fr/api/items/46>,
+        <http://serv-gi-34.utbm.fr/api/items/47>,
+        <http://serv-gi-34.utbm.fr/api/items/48>,
+        <http://serv-gi-34.utbm.fr/api/items/49>,
+        <http://serv-gi-34.utbm.fr/api/items/50>,
+        <http://serv-gi-34.utbm.fr/api/items/51>,
+        <http://serv-gi-34.utbm.fr/api/items/52> ;
+    owl:sameAs <http://vocab.getty.edu/page/aat/300183670> ;
+    skos:prefLabel "Coton (fibre d'ordre général)" .
+
