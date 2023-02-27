@@ -29,8 +29,8 @@
 	# dct:replaces ;
 	# vann:example ;
 	dcterms:issued "2023-02-27" ;
-	skos:changeNote _:node010722changA ;
-	# skos:historyNote _:node010722histA .
+  # skos:historyNote _:node010722histA  ;
+	skos:changeNote _:node010722changA .
 
 <https://viaf.org/viaf/1868159234284803371171> a foaf:Person ;
 	foaf:name "Matthieu Quantin" .
