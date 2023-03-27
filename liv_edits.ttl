@@ -1,0 +1,79 @@
+@prefix liv: <http://www.semanticweb.org/labinvirtuo#>
+@base <http://www.semanticweb.org/labinvirtuo#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+#################################################################
+#    This file
+#################################################################
+
+# This file an overwrite of some properties and somes classes of imported ontologies. 
+# These edits are mainly done in order to generate a SHACL file with appropriate restriction (domain / class / cardinality)
+# Some new properties / class are created to extend existing ontologies when needed. 
+
+#################################################################
+#    This ontology
+#################################################################
+
+<http://www.semanticweb.org/labinvirtuo> rdf:type owl:Ontology, bibo:Document ;
+  vann:preferredNamespacePrefix "liv";
+  vann:preferredNamespaceUri "http://www.semanticweb.org/labinvirtuo/ontologies/2023/0/TTM#";
+  dcterms:creator <https://viaf.org/viaf/1868159234284803371171>, "Matthieu Quantin, ECN";
+  dcterms:contributor "Noé Echard, UTBM"
+	dc:title "lab-in-virtuo: A vocabulary for describing history and heritage items" ;
+  skos:prefLabel "lab-in-virtuo: A vocabulary for describing history and heritage items" ;
+	dc:description "lab-in-virtuo: A vocabulary for describing history of techniques and industrial heritage" ;
+	# dct:isVersionOf  ;
+	# dct:replaces ;
+	# vann:example ;
+	dcterms:issued "2023-02-27" ;
+  # skos:historyNote _:node010722histA  ;
+	skos:changeNote _:node010722changA .
+
+<https://viaf.org/viaf/1868159234284803371171> a foaf:Person ;
+	foaf:name "Matthieu Quantin" ;
+  foaf:workplaceHomepage "https://www.ec-nantes.fr/" .
+
+_:node010722changA rdf:value "describing the onotology itself with vann and others" ;
+	dc:date "2023-02-27" ;
+	dc:creator <https://viaf.org/viaf/1868159234284803371171> .
+
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+#################################################################
+#    Datatypes
+#################################################################
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+liv:otherWallFace rdf:type owl:SymmetricProperty ;#sub class of owl:objectProperty
+                     rdfs:domain liv:WallFace ;
+                     rdfs:range liv:WallFace ;
+                     rdfs:comment """This property associate two faces of tht same wall. This is a symetric property. Note that it is not transitive: example wall A is a façade (outside) it has many otherWallFace inside, one in each room for example. """ ;
+                     rdfs:label "other wall face of"@en .
+
+
+
+#################################################################
+#    Classes
+#################################################################
+
+liv:wallFace rdf:type owl:Class ;
+                          rdfs:subClassOf crm:E22_Human-Made_Object ;
+                          rdfs:comment """This class comprises a wall face, this is the visible face of a wall. The property liv:otherWallFace enables to link one face to the other""" ;
+                          rdfs:label "Wall face"@en .
+
+rico:RecordResource rdf:type owl:Class ;
+                          rdfs:subClassOf bibo:Document ;

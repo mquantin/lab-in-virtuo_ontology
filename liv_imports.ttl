@@ -1,5 +1,3 @@
-@prefix : <http://www.semanticweb.org/labinvirtuo/ontologies/2023/0/TTM#> .
-@base <http://www.semanticweb.org/labinvirtuo/ontologies/2023/0/TTM> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -18,34 +16,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/>  .
 @prefix time: <http://www.w3.org/2006/time#> .
-
-#################################################################
-#    This ontology
-#################################################################
-
-<http://www.semanticweb.org/labinvirtuo/ontologies/2023/0/TTM> rdf:type owl:Ontology, bibo:Document ;
-  vann:preferredNamespacePrefix "liv";
-  vann:preferredNamespaceUri "http://www.semanticweb.org/labinvirtuo/ontologies/2023/0/TTM#";
-  dcterms:creator <https://viaf.org/viaf/1868159234284803371171>;
-  dcterms:contributor "Noé Echard, UTBM"
-	dc:title "lab-in-virtuo: A vocabulary for describing history and heritage items" ;
-  skos:prefLabel "lab-in-virtuo: A vocabulary for describing history and heritage items" ;
-	dc:description "lab-in-virtuo: A vocabulary for describing history of techniques and industrial heritage" ;
-	# dct:isVersionOf  ;
-	# dct:replaces ;
-	# vann:example ;
-	dcterms:issued "2023-02-27" ;
-  # skos:historyNote _:node010722histA  ;
-	skos:changeNote _:node010722changA .
-
-<https://viaf.org/viaf/1868159234284803371171> a foaf:Person ;
-	foaf:name "Matthieu Quantin" ;
-  foaf:workplaceHomepage "https://www.ec-nantes.fr/" .
-
-_:node010722changA rdf:value "describing the onotology itself with vann and others" ;
-	dc:date "2023-02-27" ;
-	dc:creator <https://viaf.org/viaf/1868159234284803371171> .
-
 
 #################################################################
 #    Annotation properties
