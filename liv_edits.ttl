@@ -1,8 +1,16 @@
-@prefix liv: <http://www.semanticweb.org/labinvirtuo#> .
 @base <http://www.semanticweb.org/labinvirtuo#> .
+@prefix liv: <http://www.semanticweb.org/labinvirtuo#> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> . 
+
 
 #################################################################
 #    This file
@@ -21,15 +29,15 @@
   vann:preferredNamespaceUri "http://www.semanticweb.org/labinvirtuo/ontologies/2023/0/TTM#";
   dcterms:creator _:node01peopleA ;
   dcterms:contributor "Noé Echard, UTBM", "Cyril Lachèze, UTBM";
-  dc:title "lab-in-virtuo: A vocabulary for describing history and heritage items" ;
+  dcterms:title "lab-in-virtuo: A vocabulary for describing history and heritage items" ;
   skos:prefLabel "lab-in-virtuo: A vocabulary for describing history and heritage items" ;
-  dc:description "lab-in-virtuo: A vocabulary for describing history of techniques and industrial heritage" ;
-# dct:isVersionOf  ;
-# dct:replaces ;
-# vann:example ;
-  dcterms:issued "2023-02-27" ;
-# skos:historyNote _:node010722histA  ;
-  skos:changeNote _:node010722changA .
+	dcterms:description "lab-in-virtuo: A vocabulary for describing history of techniques and industrial heritage" ;
+	# dct:isVersionOf  ;
+	# dct:replaces ;
+	# vann:example ;
+	dcterms:issued "2023-02-27" ;
+  # skos:historyNote _:node010722histA  ;
+	skos:changeNote _:node010722changA .
 
 _:node01peopleA a foaf:Person ;
   owl:sameAs <https://viaf.org/viaf/1868159234284803371171>;
@@ -37,8 +45,8 @@ _:node01peopleA a foaf:Person ;
   foaf:workplaceHomepage "https://www.ec-nantes.fr/" .
 
 _:node010722changA rdf:value "describing the onotology itself with vann and others" ;
-  dc:date "2023-02-27" ;
-  dc:creator <https://viaf.org/viaf/1868159234284803371171> .
+	dcterms:date "2023-02-27" ;
+	dcterms:creator <https://viaf.org/viaf/1868159234284803371171> .
 
 
 #################################################################
@@ -77,4 +85,4 @@ liv:wallFace rdf:type owl:Class ;
                           rdfs:label "Wall face"@en .
 
 rico:RecordResource rdf:type owl:Class ;
-                          rdfs:subClassOf bibo:Document ;
+                          rdfs:subClassOf bibo:Document .
