@@ -27,6 +27,7 @@
 <http://www.semanticweb.org/labinvirtuo> rdf:type owl:Ontology, bibo:Document ;
   vann:preferredNamespacePrefix "liv";
   vann:preferredNamespaceUri "http://www.semanticweb.org/labinvirtuo/ontologies/2023/0/TTM#";
+  vann:usageNote "developped to be used in conjunction with standard ontologies, modified for SHACL validation purpose"
   dcterms:creator _:node01peopleA ;
   dcterms:contributor "Noé Echard, UTBM", "Cyril Lachèze, UTBM";
   dcterms:title "lab-in-virtuo: A vocabulary for describing history and heritage items" ;
